@@ -1,0 +1,21 @@
+@font-face {
+    font-family: 'DIN Next LT Pro';
+    src: url('../fonts/DINNextLTPro-Light/din-next-lt-pro-light.woff2') format('woff2'),
+            url('../fonts/DINNextLTPro-Light/din-next-lt-pro-light.woff') format('woff'),
+            url('../fonts/DINNextLTPro-Light/din-next-lt-pro-light.eot') format('truetype');
+    font-weight: 300; /* Or the appropriate weight */
+    font-style: normal;
+}
+
+body {
+  background-image: url("../img/background.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.din-next-lg {
+    font-family: 'DIN Next LT Pro';
+    font-size: x-large;    
+}
